@@ -1,0 +1,37 @@
+/* Общий контейнер */
+.liveness-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 115vh; /* Займёт всю высоту экрана */
+  padding: 20px; /* Добавим немного отступов для мелких экранов */
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+}
+
+/* Увеличиваем овал на маленьких экранах */
+.liveness-container canvas {
+  max-width: 100%; /* Убедимся, что контент не выходит за пределы экрана */
+  height: auto;
+}
+
+/* Для маленьких экранов (до 600px) */
+@media (max-width: 600px) {
+  .liveness-container {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  /* Овал камеры центрируется, а текст занимает меньше места */
+  .liveness-container canvas {
+    width: 100%; /* Использует всю ширину экрана */
+    max-width: 320px; /* Ограничиваем размер для избежания растягивания */
+  }
+}
+
+/* Для средних экранов (от 601px до 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .liveness-container {
+    padding: 15px;
+  }
+}
