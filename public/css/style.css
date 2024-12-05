@@ -1,0 +1,95 @@
+.input-group-lg{
+	padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 0.2rem;
+}
+.card-digital{
+	padding: 100px 50px !important;
+	background: #f8f9fe;
+	border: none;
+}
+.content-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}
+.content-info .list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: stretch;
+    height: 56px;
+    gap: 12px;
+}
+.content-info .list p {
+    align-self: stretch;
+    color: var(--elements-low-contrast, #7B858E);
+    font-family: "PT Root UI";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.08px;
+    margin-bottom: 0;
+}
+.hr {
+    background: #EEF0F2;
+    height: 1px;
+    width: 100%;
+    margin: 0;
+}
+.content-info .list h4 {
+    color: var(--elements-high-contrast, #1C1F21);
+    font-family: "PT Root UI";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.08px;
+    margin-bottom: 0;
+    align-self: stretch;
+}
+.amplify-flex{
+    gap: 0 !important;
+}
+.amplify-alert{
+    display: none !important;
+}
+.amplify-alert__heading{
+    font-size: 14px !important;
+}
+.amplify-alert__body{
+    font-size: 12px !important;
+}
+.amplify-alert__icon{
+    font-size: 16px !important;
+}
+.amplify-button{
+    padding: 5 !important;margin: 0 !important;
+}
+.amplify-flex canvas{
+    width: 100%;
+    height: 600px
+
+}
+.logo-text{
+    font-size: 18px;
+}
+.logo{
+    width: 28px;
+}
+.amplify-liveness-overlay{
+    height: 80vh !important;
+    
+}
+.amplify-liveness-camera-module{
+    height: 80vh !important;
+}
+.amplify-liveness-camera-module{
+    margin-bottom: 15px !important;
+}
+.amplify-button{
+    font-size: 13px;
+}
